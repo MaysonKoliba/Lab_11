@@ -1,5 +1,2 @@
-﻿  Hash.cpp
-  Lab11.cpp
-  Generating Code...
-C:\Users\mayso\Desktop\ThisSemester\DataStructures\Lab_11\Lab11\Hash.cpp(5,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  Lab11.cpp
   Lab11.vcxproj -> C:\Users\mayso\Desktop\ThisSemester\DataStructures\Lab_11\Lab11\Debug\Lab11.exe

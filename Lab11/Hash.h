@@ -2,6 +2,7 @@
 #include "time.h"
 #include <stdlib.h>
 #include <vector>
+#include <string>
 using namespace std;
 
 class Node
@@ -24,6 +25,7 @@ public:
 	Node* removeItem(int index);
 	Node* getItem(int index);
 	int getLength();
+	string printTable();
 
 private:
 	int maxSize;

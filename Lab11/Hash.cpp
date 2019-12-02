@@ -24,7 +24,9 @@ Hash::Hash()
 
 Hash::Hash(int size)
 {
-	maxSize = size;
+	double scaleFactor = 1;
+
+	maxSize = size * scaleFactor;
 	for (int i = 0; i < maxSize; i++) {
 		table.push_back(nullptr);
 	}
@@ -86,4 +88,20 @@ Node* Hash::getItem(int index)
 int Hash::getLength()
 {
 	return curSize;
+}
+
+string Hash::printTable()
+{
+	string output = "";
+
+	for (int i = 0; i < maxSize; i++) {
+		if (table[i] == nullptr) {
+			output = output + "0 ";
+		}
+		else {
+			output = output + "1 ";
+		}
+	}
+
+	return output;
 }
